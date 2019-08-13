@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     @objc func handleTimer() {
         let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm:ss"
+        formatter.dateFormat = "mm:ss"
         clockLabel.text = formatter.string(from: Date())
     }
 
